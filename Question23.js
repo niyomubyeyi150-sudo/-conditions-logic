@@ -7,9 +7,11 @@ switch (lightColor){
     case "green":
         console.log(" people Go! The light is Green") ; 
         break;
-    case"yellow":
-    console.log("The light is not yellow ");
-    break;
-    default:
-        console.log("The light is not yellow");
+case "yellow":
+if (lightColor !== "yellow"){
+    console.log("The light color is not yellow");
+}else{
+     console.log("The light color is  yellow");
+}
+break
 }
