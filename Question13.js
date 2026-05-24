@@ -9,7 +9,7 @@ if (battery < 20 ){
     console.log("Full battery");
 }
 // 3. Check if the battery is NOT 0.
- else if (battery !== 0){
+ if (battery !== 0){
     console.log("Phone is on  ");
 }else {
     console.log("Shutdown");
